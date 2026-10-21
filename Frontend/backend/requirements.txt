@@ -1,0 +1,13 @@
+groq
+openai
+python-dotenv
+fastapi
+uvicorn
+pydantic
+pytest
+
+# persona/competitor agents (LangGraph)
+langgraph
+langchain-core
+langchain-groq
+langchain-openai

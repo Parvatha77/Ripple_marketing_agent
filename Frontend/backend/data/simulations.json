@@ -1,0 +1,1747 @@
+[
+  {
+    "scenario_id": "scn_all_discount_27",
+    "discount_pct": 20.0,
+    "product_id": "all",
+    "category": "all",
+    "product_ids": [],
+    "initiated_by": "Suryaa",
+    "revenue": 3909555.56,
+    "revenue_change_pct": -18.888888796680497,
+    "margin_impact_pct": -3.4000000000000004,
+    "repeat_purchase_rate": 0.41,
+    "avg_order_value": 78.27,
+    "full_price_purchase_pct": 62.0,
+    "guardrail_recommendation": 20.0,
+    "selected_node_id": null,
+    "evidence": {},
+    "id": "sim_2afca716",
+    "created_at": "2026-09-02T05:22:38.910053+00:00",
+    "status": "under_review"
+  },
+  {
+    "scenario_id": "scn_sitewide_discount_30",
+    "discount_pct": 19.0,
+    "product_id": "all",
+    "category": "apparel",
+    "product_ids": [],
+    "initiated_by": "Chen",
+    "revenue": 4338000.0,
+    "revenue_change_pct": -10.0,
+    "margin_impact_pct": -3.06,
+    "repeat_purchase_rate": 5.0,
+    "avg_order_value": 86.0,
+    "full_price_purchase_pct": 40.9,
+    "guardrail_recommendation": null,
+    "selected_node_id": null,
+    "evidence": {},
+    "id": "sim_f118e412",
+    "created_at": "2026-09-02T06:01:42.412559+00:00",
+    "status": "pending_review"
+  },
+  {
+    "scenario_id": "scn_all_discount_30",
+    "discount_pct": 35.0,
+    "product_id": "all",
+    "category": "accessories",
+    "product_ids": [],
+    "initiated_by": "Sarah",
+    "revenue": 4640291.36,
+    "revenue_change_pct": -3.728395020746881,
+    "margin_impact_pct": -8.5,
+    "repeat_purchase_rate": 0.4219,
+    "avg_order_value": 75.06,
+    "full_price_purchase_pct": 57.24,
+    "guardrail_recommendation": 20.0,
+    "selected_node_id": null,
+    "evidence": {},
+    "id": "sim_da116740",
+    "created_at": "2026-09-02T06:52:15.322474+00:00",
+    "status": "rejected"
+  },
+  {
+    "scenario_id": "scn_sitewide_discount_30",
+    "discount_pct": 24.0,
+    "product_id": "all",
+    "category": "footwear",
+    "product_ids": [],
+    "initiated_by": "Sarah",
+    "revenue": 4640291.36,
+    "revenue_change_pct": -3.728395020746881,
+    "margin_impact_pct": -4.760000000000001,
+    "repeat_purchase_rate": 0.4219,
+    "avg_order_value": 75.06,
+    "full_price_purchase_pct": 57.24,
+    "guardrail_recommendation": null,
+    "selected_node_id": null,
+    "evidence": {},
+    "id": "sim_b1a07473",
+    "created_at": "2026-09-02T08:37:52.209045+00:00",
+    "status": "rejected"
+  },
+  {
+    "scenario_id": "scn_footwear_discount_39",
+    "discount_pct": 39.0,
+    "product_id": "all",
+    "category": "footwear",
+    "product_ids": [],
+    "initiated_by": "Saraha",
+    "revenue": 4174358.02,
+    "revenue_change_pct": -13.39506182572614,
+    "margin_impact_pct": -9.860000000000001,
+    "repeat_purchase_rate": 0.4239,
+    "avg_order_value": 65.41,
+    "full_price_purchase_pct": 56.44,
+    "guardrail_recommendation": 25.0,
+    "selected_node_id": null,
+    "evidence": {},
+    "id": "sim_8653cc17",
+    "created_at": "2026-09-02T10:21:28.817802+00:00",
+    "status": "approved"
+  },
+  {
+    "scenario_id": "scn_sitewide_discount_29",
+    "discount_pct": 29.0,
+    "product_id": "all",
+    "category": "footwear",
+    "product_ids": [],
+    "initiated_by": "Kannan",
+    "revenue": 5084713.21,
+    "revenue_change_pct": 5.491975311203319,
+    "margin_impact_pct": -6.460000000000001,
+    "repeat_purchase_rate": 0.4269,
+    "avg_order_value": 76.13,
+    "full_price_purchase_pct": 55.26,
+    "guardrail_recommendation": 20.0,
+    "selected_node_id": "price_sensitivity",
+    "evidence": {},
+    "id": "sim_8415d963",
+    "created_at": "2026-09-02T12:05:11.953483+00:00",
+    "status": "approved"
+  },
+  {
+    "scenario_id": "scn_sitewide_discount_34",
+    "discount_pct": 34.0,
+    "product_id": null,
+    "category": "sitewide",
+    "product_ids": [],
+    "initiated_by": "simulator",
+    "revenue": null,
+    "revenue_change_pct": -8.129629668049793,
+    "margin_impact_pct": 0.0,
+    "repeat_purchase_rate": 0.4226,
+    "avg_order_value": 70.77,
+    "full_price_purchase_pct": 56.94,
+    "guardrail_recommendation": null,
+    "selected_node_id": null,
+    "evidence": {
+      "scenario_id": "scn_sitewide_discount_34",
+      "events": [
+        {
+          "event_id": "evt_21d4cc92",
+          "actor_type": "persona",
+          "actor_id": "p1_deal_seeker",
+          "timestep": "day_0",
+          "purchase_intent_delta": 0.8,
+          "loyalty_delta": 0.1,
+          "sentiment": "positive",
+          "quote": "Wow, a 34% off sitewide? This is exactly the kind of deal that makes me jump in—time to snag some new gear!",
+          "persona_name": "Deal Seeker"
+        },
+        {
+          "event_id": "evt_2b314a46",
+          "actor_type": "persona",
+          "actor_id": "p2_brand_loyal_premium",
+          "timestep": "day_0",
+          "purchase_intent_delta": -0.7,
+          "loyalty_delta": -0.3,
+          "sentiment": "negative",
+          "quote": "I don’t see how a 34% discount can come from a brand that prides itself on craftsmanship; it feels like the price is being weaponized.",
+          "persona_name": "Brand-Loyal Premium Buyer"
+        },
+        {
+          "event_id": "evt_d9d42278",
+          "actor_type": "persona",
+          "actor_id": "p3_occasional_browser",
+          "timestep": "day_0",
+          "purchase_intent_delta": 0.4,
+          "loyalty_delta": 0.1,
+          "sentiment": "positive",
+          "quote": "Finally, a deal that actually makes me think about buying instead of just scrolling!",
+          "persona_name": "Occasional Browser"
+        },
+        {
+          "event_id": "evt_fbe19ff1",
+          "actor_type": "persona",
+          "actor_id": "p4_high_ltv_repeat_buyer",
+          "timestep": "day_0",
+          "purchase_intent_delta": 0.2,
+          "loyalty_delta": 0.1,
+          "sentiment": "positive",
+          "quote": "I’m thrilled to see the new discount – it’s a nice bonus, but I’ll keep buying these pieces because they just work for me.",
+          "persona_name": "High-LTV Repeat Buyer"
+        },
+        {
+          "event_id": "evt_a75d4b57",
+          "actor_type": "persona",
+          "actor_id": "p5_budget_conscious_family",
+          "timestep": "day_0",
+          "purchase_intent_delta": 0.7,
+          "loyalty_delta": 0.2,
+          "sentiment": "positive",
+          "quote": "I can finally stock up on the kids’ gear and a new sweater without breaking the budget—this 34% off is a game changer.",
+          "persona_name": "Budget-Conscious Family Shopper"
+        },
+        {
+          "event_id": "evt_2c31bfb6",
+          "actor_type": "persona",
+          "actor_id": "p6_competitor_switcher",
+          "timestep": "day_0",
+          "purchase_intent_delta": 0.7,
+          "loyalty_delta": 0.1,
+          "sentiment": "positive",
+          "quote": "Finally a discount that actually beats what the rivals are offering—time to grab that jacket before it sells out!",
+          "persona_name": "Competitor Switcher"
+        },
+        {
+          "event_id": "evt_93df94b3",
+          "actor_type": "persona",
+          "actor_id": "p1_deal_seeker",
+          "timestep": "day_30",
+          "purchase_intent_delta": 0.5,
+          "loyalty_delta": 0.05,
+          "sentiment": "positive",
+          "quote": "Still hunting for that 34% off, but I’m already planning my next haul—if the tote drops, I’ll grab it before the next promo.",
+          "persona_name": "Deal Seeker"
+        },
+        {
+          "event_id": "evt_5f05c808",
+          "actor_type": "persona",
+          "actor_id": "p2_brand_loyal_premium",
+          "timestep": "day_30",
+          "purchase_intent_delta": -0.8,
+          "loyalty_delta": -0.4,
+          "sentiment": "negative",
+          "quote": "Seeing a 34% discount on my trusted brand feels like a betrayal of the quality I’ve always paid for without a second thought.",
+          "persona_name": "Brand-Loyal Premium Buyer"
+        },
+        {
+          "event_id": "evt_df6f30d3",
+          "actor_type": "persona",
+          "actor_id": "p3_occasional_browser",
+          "timestep": "day_30",
+          "purchase_intent_delta": 0.7,
+          "loyalty_delta": 0.05,
+          "sentiment": "positive",
+          "quote": "I actually stopped scrolling and added a tote to my cart—34% off is hard to ignore!",
+          "persona_name": "Occasional Browser"
+        },
+        {
+          "event_id": "evt_377db25c",
+          "actor_type": "persona",
+          "actor_id": "p4_high_ltv_repeat_buyer",
+          "timestep": "day_30",
+          "purchase_intent_delta": 0.1,
+          "loyalty_delta": 0,
+          "sentiment": "mixed",
+          "quote": "The 34% off feels generous, but I’ll still buy these pieces because they just work for me.",
+          "persona_name": "High-LTV Repeat Buyer"
+        },
+        {
+          "event_id": "evt_fc64717a",
+          "actor_type": "persona",
+          "actor_id": "p5_budget_conscious_family",
+          "timestep": "day_30",
+          "purchase_intent_delta": 0.5,
+          "loyalty_delta": 0.1,
+          "sentiment": "mixed",
+          "quote": "I’ve already grabbed a few items, but I’m now holding off on the rest, hoping to snag even more bulk deals before the discount drops again.",
+          "persona_name": "Budget-Conscious Family Shopper"
+        },
+        {
+          "event_id": "evt_60312552",
+          "actor_type": "persona",
+          "actor_id": "p6_competitor_switcher",
+          "timestep": "day_30",
+          "purchase_intent_delta": 0.5,
+          "loyalty_delta": -0.05,
+          "sentiment": "mixed",
+          "quote": "Nice that the discount is deep, but I'm still keeping an eye on the competitor's points system to see if they can beat this value.",
+          "persona_name": "Competitor Switcher"
+        },
+        {
+          "event_id": "evt_31a45a1c",
+          "actor_type": "persona",
+          "actor_id": "p1_deal_seeker",
+          "timestep": "day_90",
+          "purchase_intent_delta": 0.3,
+          "loyalty_delta": -0.05,
+          "sentiment": "mixed",
+          "quote": "The 34% off still feels great, but I’m already eyeing my next brand’s sale—this deal is cool, just not the only reason I’ll stick around.",
+          "persona_name": "Deal Seeker"
+        },
+        {
+          "event_id": "evt_24235066",
+          "actor_type": "persona",
+          "actor_id": "p2_brand_loyal_premium",
+          "timestep": "day_90",
+          "purchase_intent_delta": -0.9,
+          "loyalty_delta": -0.6,
+          "sentiment": "negative",
+          "quote": "After seeing that 34% discount, I’m convinced the brand has finally decided to sell its soul for a quick profit, and I’m seriously looking at alternatives.",
+          "persona_name": "Brand-Loyal Premium Buyer"
+        },
+        {
+          "event_id": "evt_32ef40ab",
+          "actor_type": "persona",
+          "actor_id": "p3_occasional_browser",
+          "timestep": "day_90",
+          "purchase_intent_delta": 0.6,
+          "loyalty_delta": 0.1,
+          "sentiment": "positive",
+          "quote": "I’m actually thinking about grabbing that tote now—34% off feels like a real steal, so I might finally hit checkout instead of just scrolling.",
+          "persona_name": "Occasional Browser"
+        },
+        {
+          "event_id": "evt_1e77f1f5",
+          "actor_type": "persona",
+          "actor_id": "p4_high_ltv_repeat_buyer",
+          "timestep": "day_90",
+          "purchase_intent_delta": 0.05,
+          "loyalty_delta": 0.05,
+          "sentiment": "mixed",
+          "quote": "I appreciate the 34% off, but I’ll still buy because these pieces just fit my style.",
+          "persona_name": "High-LTV Repeat Buyer"
+        },
+        {
+          "event_id": "evt_d8e80750",
+          "actor_type": "persona",
+          "actor_id": "p5_budget_conscious_family",
+          "timestep": "day_90",
+          "purchase_intent_delta": 0.3,
+          "loyalty_delta": -0.1,
+          "sentiment": "mixed",
+          "quote": "I’m happy with what I got, but I’m holding off on the rest until I can snag a bigger bundle before the discount dips again.",
+          "persona_name": "Budget-Conscious Family Shopper"
+        },
+        {
+          "event_id": "evt_797475ca",
+          "actor_type": "persona",
+          "actor_id": "p6_competitor_switcher",
+          "timestep": "day_90",
+          "purchase_intent_delta": 0.6,
+          "loyalty_delta": -0.1,
+          "sentiment": "mixed",
+          "quote": "The 34% off is tempting, but I'm still weighing the competitor's loyalty perks to see if they can outshine this deal.",
+          "persona_name": "Competitor Switcher"
+        },
+        {
+          "event_id": "evt_ba1d4113",
+          "actor_type": "competitor",
+          "actor_id": "c1_fast_follower",
+          "timestep": "day_30",
+          "action": "match",
+          "rationale": "With a high price‑match tendency and a history of matching rivals’ discounts within a week, Northline will mirror the 34% sitewide offer to prevent losing the uptick in purchase intent, while keeping the price differential modest to maintain its mid‑market challenger positioning.",
+          "competitor_name": "Northline Apparel",
+          "observed_avg_intent_delta": 0.25,
+          "observed_avg_loyalty_delta": -0.0417
+        },
+        {
+          "event_id": "evt_228f136a",
+          "actor_type": "competitor",
+          "actor_id": "c2_premium_holdout",
+          "timestep": "day_30",
+          "action": "hold",
+          "rationale": "Aldenwood & Co. has historically maintained premium pricing and rarely matches discounts; the modest lift in purchase intent does not offset the risk of eroding brand prestige, so we continue to hold our positioning.",
+          "competitor_name": "Aldenwood & Co.",
+          "observed_avg_intent_delta": 0.25,
+          "observed_avg_loyalty_delta": -0.0417
+        },
+        {
+          "event_id": "evt_b77726e1",
+          "actor_type": "competitor",
+          "actor_id": "c1_fast_follower",
+          "timestep": "day_90",
+          "action": "match",
+          "rationale": "As a fast‑follower mid‑market challenger with a high price‑match tendency, Northline Apparel will mirror the rival’s 34% sitewide discount to retain price‑sensitive customers whose intent is rising but loyalty is slipping.",
+          "competitor_name": "Northline Apparel",
+          "observed_avg_intent_delta": 0.1583,
+          "observed_avg_loyalty_delta": -0.1167
+        },
+        {
+          "event_id": "evt_b1947777",
+          "actor_type": "competitor",
+          "actor_id": "c2_premium_holdout",
+          "timestep": "day_90",
+          "action": "hold",
+          "rationale": "Aldenwood & Co. remains a heritage premium brand that rarely discounts; the observed rise in purchase intent is offset by a drop in loyalty, so maintaining price integrity reinforces long‑term brand equity rather than matching a fleeting discount wave.",
+          "competitor_name": "Aldenwood & Co.",
+          "observed_avg_intent_delta": 0.1583,
+          "observed_avg_loyalty_delta": -0.1167
+        },
+        {
+          "event_id": "evt_guardrail_023",
+          "actor_type": "guardrail",
+          "actor_id": "guardrails_agent",
+          "timestep": "day_90",
+          "primary_risk": "The 34% sitewide discount triggers a permanent loss of the high-margin, high-loyalty 'Brand-Loyal Premium' segment due to brand devaluation, which is not offset by the volume lift from deal-seekers, resulting in a net profit decline.",
+          "risk_assessment": {
+            "overall": "high",
+            "customer": "high",
+            "financial": "high",
+            "competitive": "medium",
+            "brand": "high"
+          },
+          "evidence": [
+            {
+              "claim": "The decision results in a significant net profit loss despite increased purchase intent from other segments.",
+              "source": "financial_analysis.profit_delta",
+              "value": "-870990.28"
+            },
+            {
+              "claim": "The Brand-Loyal Premium Buyer persona experiences a severe and accelerating drop in loyalty and purchase intent, indicating churn risk for the highest-value customers.",
+              "source": "event:evt_24235066",
+              "value": "loyalty_delta: -0.6, purchase_intent_delta: -0.9"
+            },
+            {
+              "claim": "Historical data shows that discounts exceeding 30% on a sitewide or large-category basis lead to long-term repeat purchase depression (negative repeat purchase delta of -8.0%).",
+              "source": "historical:hd_004",
+              "value": "repeat_purchase_delta_pct: -8.0"
+            },
+            {
+              "claim": "The margin erosion on signature items like the Leather Tote is substantial, dropping from 60.15% to 45.66%, which directly impacts the brand's premium positioning.",
+              "source": "financial_analysis.per_product_margin[1]",
+              "value": "sku_002 margin_delta_pct: -14.49"
+            },
+            {
+              "claim": "While Deal Seekers and Budget Shoppers show positive initial intent, their loyalty gains are marginal or negative by day 90, suggesting they are price-sensitive rather than brand-loyal.",
+              "source": "event:evt_31a45a1c",
+              "value": "p1_deal_seeker loyalty_delta: -0.05"
+            }
+          ],
+          "recommendation": "Set Reduce the sitewide discount to 15% and exclude the 'accessories' and 'home' categories (which include the signature Leather Tote and Pour-Over Set) from the discount, applying the 15% only to 'apparel', 'footwear', 'kids', and 'outerwear'. to 15.0% (apparel, footwear, kids, outerwear)",
+          "rationale": "A 15% sitewide discount historically yielded a positive repeat purchase delta of 1.0% (historical:hd_003) and a modest margin impact (-4.0%), avoiding the churn risk seen in the 34% scenario. By excluding premium accessories (like sku_002) from the discount, we protect the brand equity that the 'Brand-Loyal Premium' persona values, as evidenced by their negative sentiment toward 'weaponized' pricing (event:evt_2b314a46), while still capturing the volume lift from price-sensitive segments on high-elasticity items like apparel and footwear.",
+          "confidence": 0.75,
+          "confidence_factors": {
+            "historical_evidence": 0.8,
+            "comparable_decisions": 2,
+            "data_completeness": 1,
+            "simulation_consistency": 0.49
+          },
+          "impact_summary": {
+            "revenue_delta": -391848.15,
+            "profit_delta": -870990.28,
+            "aov_delta": -25.73,
+            "avg_margin_delta_pct": -14.3,
+            "discount_cost": 1156800
+          }
+        }
+      ]
+    },
+    "id": "sim_b2bf5564",
+    "created_at": "2026-09-02T12:21:32.416324+00:00",
+    "status": "under_review"
+  },
+  {
+    "scenario_id": "scn_sitewide_discount_34",
+    "discount_pct": 34.0,
+    "product_id": null,
+    "category": "sitewide",
+    "product_ids": [],
+    "initiated_by": "simulator",
+    "revenue": null,
+    "revenue_change_pct": -8.129629668049793,
+    "margin_impact_pct": 0.0,
+    "repeat_purchase_rate": 0.4226,
+    "avg_order_value": 70.77,
+    "full_price_purchase_pct": 56.94,
+    "guardrail_recommendation": null,
+    "selected_node_id": null,
+    "evidence": {
+      "scenario_id": "scn_sitewide_discount_34",
+      "events": [
+        {
+          "event_id": "evt_21d4cc92",
+          "actor_type": "persona",
+          "actor_id": "p1_deal_seeker",
+          "timestep": "day_0",
+          "purchase_intent_delta": 0.8,
+          "loyalty_delta": 0.1,
+          "sentiment": "positive",
+          "quote": "Wow, a 34% off sitewide? This is exactly the kind of deal that makes me jump in—time to snag some new gear!",
+          "persona_name": "Deal Seeker"
+        },
+        {
+          "event_id": "evt_2b314a46",
+          "actor_type": "persona",
+          "actor_id": "p2_brand_loyal_premium",
+          "timestep": "day_0",
+          "purchase_intent_delta": -0.7,
+          "loyalty_delta": -0.3,
+          "sentiment": "negative",
+          "quote": "I don’t see how a 34% discount can come from a brand that prides itself on craftsmanship; it feels like the price is being weaponized.",
+          "persona_name": "Brand-Loyal Premium Buyer"
+        },
+        {
+          "event_id": "evt_d9d42278",
+          "actor_type": "persona",
+          "actor_id": "p3_occasional_browser",
+          "timestep": "day_0",
+          "purchase_intent_delta": 0.4,
+          "loyalty_delta": 0.1,
+          "sentiment": "positive",
+          "quote": "Finally, a deal that actually makes me think about buying instead of just scrolling!",
+          "persona_name": "Occasional Browser"
+        },
+        {
+          "event_id": "evt_fbe19ff1",
+          "actor_type": "persona",
+          "actor_id": "p4_high_ltv_repeat_buyer",
+          "timestep": "day_0",
+          "purchase_intent_delta": 0.2,
+          "loyalty_delta": 0.1,
+          "sentiment": "positive",
+          "quote": "I’m thrilled to see the new discount – it’s a nice bonus, but I’ll keep buying these pieces because they just work for me.",
+          "persona_name": "High-LTV Repeat Buyer"
+        },
+        {
+          "event_id": "evt_a75d4b57",
+          "actor_type": "persona",
+          "actor_id": "p5_budget_conscious_family",
+          "timestep": "day_0",
+          "purchase_intent_delta": 0.7,
+          "loyalty_delta": 0.2,
+          "sentiment": "positive",
+          "quote": "I can finally stock up on the kids’ gear and a new sweater without breaking the budget—this 34% off is a game changer.",
+          "persona_name": "Budget-Conscious Family Shopper"
+        },
+        {
+          "event_id": "evt_2c31bfb6",
+          "actor_type": "persona",
+          "actor_id": "p6_competitor_switcher",
+          "timestep": "day_0",
+          "purchase_intent_delta": 0.7,
+          "loyalty_delta": 0.1,
+          "sentiment": "positive",
+          "quote": "Finally a discount that actually beats what the rivals are offering—time to grab that jacket before it sells out!",
+          "persona_name": "Competitor Switcher"
+        },
+        {
+          "event_id": "evt_93df94b3",
+          "actor_type": "persona",
+          "actor_id": "p1_deal_seeker",
+          "timestep": "day_30",
+          "purchase_intent_delta": 0.5,
+          "loyalty_delta": 0.05,
+          "sentiment": "positive",
+          "quote": "Still hunting for that 34% off, but I’m already planning my next haul—if the tote drops, I’ll grab it before the next promo.",
+          "persona_name": "Deal Seeker"
+        },
+        {
+          "event_id": "evt_5f05c808",
+          "actor_type": "persona",
+          "actor_id": "p2_brand_loyal_premium",
+          "timestep": "day_30",
+          "purchase_intent_delta": -0.8,
+          "loyalty_delta": -0.4,
+          "sentiment": "negative",
+          "quote": "Seeing a 34% discount on my trusted brand feels like a betrayal of the quality I’ve always paid for without a second thought.",
+          "persona_name": "Brand-Loyal Premium Buyer"
+        },
+        {
+          "event_id": "evt_df6f30d3",
+          "actor_type": "persona",
+          "actor_id": "p3_occasional_browser",
+          "timestep": "day_30",
+          "purchase_intent_delta": 0.7,
+          "loyalty_delta": 0.05,
+          "sentiment": "positive",
+          "quote": "I actually stopped scrolling and added a tote to my cart—34% off is hard to ignore!",
+          "persona_name": "Occasional Browser"
+        },
+        {
+          "event_id": "evt_377db25c",
+          "actor_type": "persona",
+          "actor_id": "p4_high_ltv_repeat_buyer",
+          "timestep": "day_30",
+          "purchase_intent_delta": 0.1,
+          "loyalty_delta": 0,
+          "sentiment": "mixed",
+          "quote": "The 34% off feels generous, but I’ll still buy these pieces because they just work for me.",
+          "persona_name": "High-LTV Repeat Buyer"
+        },
+        {
+          "event_id": "evt_fc64717a",
+          "actor_type": "persona",
+          "actor_id": "p5_budget_conscious_family",
+          "timestep": "day_30",
+          "purchase_intent_delta": 0.5,
+          "loyalty_delta": 0.1,
+          "sentiment": "mixed",
+          "quote": "I’ve already grabbed a few items, but I’m now holding off on the rest, hoping to snag even more bulk deals before the discount drops again.",
+          "persona_name": "Budget-Conscious Family Shopper"
+        },
+        {
+          "event_id": "evt_60312552",
+          "actor_type": "persona",
+          "actor_id": "p6_competitor_switcher",
+          "timestep": "day_30",
+          "purchase_intent_delta": 0.5,
+          "loyalty_delta": -0.05,
+          "sentiment": "mixed",
+          "quote": "Nice that the discount is deep, but I'm still keeping an eye on the competitor's points system to see if they can beat this value.",
+          "persona_name": "Competitor Switcher"
+        },
+        {
+          "event_id": "evt_31a45a1c",
+          "actor_type": "persona",
+          "actor_id": "p1_deal_seeker",
+          "timestep": "day_90",
+          "purchase_intent_delta": 0.3,
+          "loyalty_delta": -0.05,
+          "sentiment": "mixed",
+          "quote": "The 34% off still feels great, but I’m already eyeing my next brand’s sale—this deal is cool, just not the only reason I’ll stick around.",
+          "persona_name": "Deal Seeker"
+        },
+        {
+          "event_id": "evt_24235066",
+          "actor_type": "persona",
+          "actor_id": "p2_brand_loyal_premium",
+          "timestep": "day_90",
+          "purchase_intent_delta": -0.9,
+          "loyalty_delta": -0.6,
+          "sentiment": "negative",
+          "quote": "After seeing that 34% discount, I’m convinced the brand has finally decided to sell its soul for a quick profit, and I’m seriously looking at alternatives.",
+          "persona_name": "Brand-Loyal Premium Buyer"
+        },
+        {
+          "event_id": "evt_32ef40ab",
+          "actor_type": "persona",
+          "actor_id": "p3_occasional_browser",
+          "timestep": "day_90",
+          "purchase_intent_delta": 0.6,
+          "loyalty_delta": 0.1,
+          "sentiment": "positive",
+          "quote": "I’m actually thinking about grabbing that tote now—34% off feels like a real steal, so I might finally hit checkout instead of just scrolling.",
+          "persona_name": "Occasional Browser"
+        },
+        {
+          "event_id": "evt_1e77f1f5",
+          "actor_type": "persona",
+          "actor_id": "p4_high_ltv_repeat_buyer",
+          "timestep": "day_90",
+          "purchase_intent_delta": 0.05,
+          "loyalty_delta": 0.05,
+          "sentiment": "mixed",
+          "quote": "I appreciate the 34% off, but I’ll still buy because these pieces just fit my style.",
+          "persona_name": "High-LTV Repeat Buyer"
+        },
+        {
+          "event_id": "evt_d8e80750",
+          "actor_type": "persona",
+          "actor_id": "p5_budget_conscious_family",
+          "timestep": "day_90",
+          "purchase_intent_delta": 0.3,
+          "loyalty_delta": -0.1,
+          "sentiment": "mixed",
+          "quote": "I’m happy with what I got, but I’m holding off on the rest until I can snag a bigger bundle before the discount dips again.",
+          "persona_name": "Budget-Conscious Family Shopper"
+        },
+        {
+          "event_id": "evt_797475ca",
+          "actor_type": "persona",
+          "actor_id": "p6_competitor_switcher",
+          "timestep": "day_90",
+          "purchase_intent_delta": 0.6,
+          "loyalty_delta": -0.1,
+          "sentiment": "mixed",
+          "quote": "The 34% off is tempting, but I'm still weighing the competitor's loyalty perks to see if they can outshine this deal.",
+          "persona_name": "Competitor Switcher"
+        },
+        {
+          "event_id": "evt_ba1d4113",
+          "actor_type": "competitor",
+          "actor_id": "c1_fast_follower",
+          "timestep": "day_30",
+          "action": "match",
+          "rationale": "With a high price‑match tendency and a history of matching rivals’ discounts within a week, Northline will mirror the 34% sitewide offer to prevent losing the uptick in purchase intent, while keeping the price differential modest to maintain its mid‑market challenger positioning.",
+          "competitor_name": "Northline Apparel",
+          "observed_avg_intent_delta": 0.25,
+          "observed_avg_loyalty_delta": -0.0417
+        },
+        {
+          "event_id": "evt_228f136a",
+          "actor_type": "competitor",
+          "actor_id": "c2_premium_holdout",
+          "timestep": "day_30",
+          "action": "hold",
+          "rationale": "Aldenwood & Co. has historically maintained premium pricing and rarely matches discounts; the modest lift in purchase intent does not offset the risk of eroding brand prestige, so we continue to hold our positioning.",
+          "competitor_name": "Aldenwood & Co.",
+          "observed_avg_intent_delta": 0.25,
+          "observed_avg_loyalty_delta": -0.0417
+        },
+        {
+          "event_id": "evt_b77726e1",
+          "actor_type": "competitor",
+          "actor_id": "c1_fast_follower",
+          "timestep": "day_90",
+          "action": "match",
+          "rationale": "As a fast‑follower mid‑market challenger with a high price‑match tendency, Northline Apparel will mirror the rival’s 34% sitewide discount to retain price‑sensitive customers whose intent is rising but loyalty is slipping.",
+          "competitor_name": "Northline Apparel",
+          "observed_avg_intent_delta": 0.1583,
+          "observed_avg_loyalty_delta": -0.1167
+        },
+        {
+          "event_id": "evt_b1947777",
+          "actor_type": "competitor",
+          "actor_id": "c2_premium_holdout",
+          "timestep": "day_90",
+          "action": "hold",
+          "rationale": "Aldenwood & Co. remains a heritage premium brand that rarely discounts; the observed rise in purchase intent is offset by a drop in loyalty, so maintaining price integrity reinforces long‑term brand equity rather than matching a fleeting discount wave.",
+          "competitor_name": "Aldenwood & Co.",
+          "observed_avg_intent_delta": 0.1583,
+          "observed_avg_loyalty_delta": -0.1167
+        },
+        {
+          "event_id": "evt_guardrail_023",
+          "actor_type": "guardrail",
+          "actor_id": "guardrails_agent",
+          "timestep": "day_90",
+          "primary_risk": "The 34% sitewide discount triggers a permanent loss of the high-margin, high-loyalty 'Brand-Loyal Premium' segment due to brand devaluation, which is not offset by the volume lift from deal-seekers, resulting in a net profit decline.",
+          "risk_assessment": {
+            "overall": "high",
+            "customer": "high",
+            "financial": "high",
+            "competitive": "medium",
+            "brand": "high"
+          },
+          "evidence": [
+            {
+              "claim": "The decision results in a significant net profit loss despite increased purchase intent from other segments.",
+              "source": "financial_analysis.profit_delta",
+              "value": "-870990.28"
+            },
+            {
+              "claim": "The Brand-Loyal Premium Buyer persona experiences a severe and accelerating drop in loyalty and purchase intent, indicating churn risk for the highest-value customers.",
+              "source": "event:evt_24235066",
+              "value": "loyalty_delta: -0.6, purchase_intent_delta: -0.9"
+            },
+            {
+              "claim": "Historical data shows that discounts exceeding 30% on a sitewide or large-category basis lead to long-term repeat purchase depression (negative repeat purchase delta of -8.0%).",
+              "source": "historical:hd_004",
+              "value": "repeat_purchase_delta_pct: -8.0"
+            },
+            {
+              "claim": "The margin erosion on signature items like the Leather Tote is substantial, dropping from 60.15% to 45.66%, which directly impacts the brand's premium positioning.",
+              "source": "financial_analysis.per_product_margin[1]",
+              "value": "sku_002 margin_delta_pct: -14.49"
+            },
+            {
+              "claim": "While Deal Seekers and Budget Shoppers show positive initial intent, their loyalty gains are marginal or negative by day 90, suggesting they are price-sensitive rather than brand-loyal.",
+              "source": "event:evt_31a45a1c",
+              "value": "p1_deal_seeker loyalty_delta: -0.05"
+            }
+          ],
+          "recommendation": "Set Reduce the sitewide discount to 15% and exclude the 'accessories' and 'home' categories (which include the signature Leather Tote and Pour-Over Set) from the discount, applying the 15% only to 'apparel', 'footwear', 'kids', and 'outerwear'. to 15.0% (apparel, footwear, kids, outerwear)",
+          "rationale": "A 15% sitewide discount historically yielded a positive repeat purchase delta of 1.0% (historical:hd_003) and a modest margin impact (-4.0%), avoiding the churn risk seen in the 34% scenario. By excluding premium accessories (like sku_002) from the discount, we protect the brand equity that the 'Brand-Loyal Premium' persona values, as evidenced by their negative sentiment toward 'weaponized' pricing (event:evt_2b314a46), while still capturing the volume lift from price-sensitive segments on high-elasticity items like apparel and footwear.",
+          "confidence": 0.75,
+          "confidence_factors": {
+            "historical_evidence": 0.8,
+            "comparable_decisions": 2,
+            "data_completeness": 1,
+            "simulation_consistency": 0.49
+          },
+          "impact_summary": {
+            "revenue_delta": -391848.15,
+            "profit_delta": -870990.28,
+            "aov_delta": -25.73,
+            "avg_margin_delta_pct": -14.3,
+            "discount_cost": 1156800
+          }
+        }
+      ]
+    },
+    "id": "sim_4ffeea00",
+    "created_at": "2026-09-02T12:23:00.350809+00:00",
+    "status": "rejected"
+  },
+  {
+    "scenario_id": "scn_sitewide_discount_34",
+    "discount_pct": 34.0,
+    "product_id": null,
+    "category": "sitewide",
+    "product_ids": [],
+    "initiated_by": "simulator",
+    "revenue": null,
+    "revenue_change_pct": -8.129629668049793,
+    "margin_impact_pct": 0.0,
+    "repeat_purchase_rate": 0.4226,
+    "avg_order_value": 70.77,
+    "full_price_purchase_pct": 56.94,
+    "guardrail_recommendation": null,
+    "selected_node_id": null,
+    "evidence": {
+      "scenario_id": "scn_sitewide_discount_34",
+      "events": [
+        {
+          "event_id": "evt_21d4cc92",
+          "actor_type": "persona",
+          "actor_id": "p1_deal_seeker",
+          "timestep": "day_0",
+          "purchase_intent_delta": 0.8,
+          "loyalty_delta": 0.1,
+          "sentiment": "positive",
+          "quote": "Wow, a 34% off sitewide? This is exactly the kind of deal that makes me jump in—time to snag some new gear!",
+          "persona_name": "Deal Seeker"
+        },
+        {
+          "event_id": "evt_2b314a46",
+          "actor_type": "persona",
+          "actor_id": "p2_brand_loyal_premium",
+          "timestep": "day_0",
+          "purchase_intent_delta": -0.7,
+          "loyalty_delta": -0.3,
+          "sentiment": "negative",
+          "quote": "I don’t see how a 34% discount can come from a brand that prides itself on craftsmanship; it feels like the price is being weaponized.",
+          "persona_name": "Brand-Loyal Premium Buyer"
+        },
+        {
+          "event_id": "evt_d9d42278",
+          "actor_type": "persona",
+          "actor_id": "p3_occasional_browser",
+          "timestep": "day_0",
+          "purchase_intent_delta": 0.4,
+          "loyalty_delta": 0.1,
+          "sentiment": "positive",
+          "quote": "Finally, a deal that actually makes me think about buying instead of just scrolling!",
+          "persona_name": "Occasional Browser"
+        },
+        {
+          "event_id": "evt_fbe19ff1",
+          "actor_type": "persona",
+          "actor_id": "p4_high_ltv_repeat_buyer",
+          "timestep": "day_0",
+          "purchase_intent_delta": 0.2,
+          "loyalty_delta": 0.1,
+          "sentiment": "positive",
+          "quote": "I’m thrilled to see the new discount – it’s a nice bonus, but I’ll keep buying these pieces because they just work for me.",
+          "persona_name": "High-LTV Repeat Buyer"
+        },
+        {
+          "event_id": "evt_a75d4b57",
+          "actor_type": "persona",
+          "actor_id": "p5_budget_conscious_family",
+          "timestep": "day_0",
+          "purchase_intent_delta": 0.7,
+          "loyalty_delta": 0.2,
+          "sentiment": "positive",
+          "quote": "I can finally stock up on the kids’ gear and a new sweater without breaking the budget—this 34% off is a game changer.",
+          "persona_name": "Budget-Conscious Family Shopper"
+        },
+        {
+          "event_id": "evt_2c31bfb6",
+          "actor_type": "persona",
+          "actor_id": "p6_competitor_switcher",
+          "timestep": "day_0",
+          "purchase_intent_delta": 0.7,
+          "loyalty_delta": 0.1,
+          "sentiment": "positive",
+          "quote": "Finally a discount that actually beats what the rivals are offering—time to grab that jacket before it sells out!",
+          "persona_name": "Competitor Switcher"
+        },
+        {
+          "event_id": "evt_93df94b3",
+          "actor_type": "persona",
+          "actor_id": "p1_deal_seeker",
+          "timestep": "day_30",
+          "purchase_intent_delta": 0.5,
+          "loyalty_delta": 0.05,
+          "sentiment": "positive",
+          "quote": "Still hunting for that 34% off, but I’m already planning my next haul—if the tote drops, I’ll grab it before the next promo.",
+          "persona_name": "Deal Seeker"
+        },
+        {
+          "event_id": "evt_5f05c808",
+          "actor_type": "persona",
+          "actor_id": "p2_brand_loyal_premium",
+          "timestep": "day_30",
+          "purchase_intent_delta": -0.8,
+          "loyalty_delta": -0.4,
+          "sentiment": "negative",
+          "quote": "Seeing a 34% discount on my trusted brand feels like a betrayal of the quality I’ve always paid for without a second thought.",
+          "persona_name": "Brand-Loyal Premium Buyer"
+        },
+        {
+          "event_id": "evt_df6f30d3",
+          "actor_type": "persona",
+          "actor_id": "p3_occasional_browser",
+          "timestep": "day_30",
+          "purchase_intent_delta": 0.7,
+          "loyalty_delta": 0.05,
+          "sentiment": "positive",
+          "quote": "I actually stopped scrolling and added a tote to my cart—34% off is hard to ignore!",
+          "persona_name": "Occasional Browser"
+        },
+        {
+          "event_id": "evt_377db25c",
+          "actor_type": "persona",
+          "actor_id": "p4_high_ltv_repeat_buyer",
+          "timestep": "day_30",
+          "purchase_intent_delta": 0.1,
+          "loyalty_delta": 0,
+          "sentiment": "mixed",
+          "quote": "The 34% off feels generous, but I’ll still buy these pieces because they just work for me.",
+          "persona_name": "High-LTV Repeat Buyer"
+        },
+        {
+          "event_id": "evt_fc64717a",
+          "actor_type": "persona",
+          "actor_id": "p5_budget_conscious_family",
+          "timestep": "day_30",
+          "purchase_intent_delta": 0.5,
+          "loyalty_delta": 0.1,
+          "sentiment": "mixed",
+          "quote": "I’ve already grabbed a few items, but I’m now holding off on the rest, hoping to snag even more bulk deals before the discount drops again.",
+          "persona_name": "Budget-Conscious Family Shopper"
+        },
+        {
+          "event_id": "evt_60312552",
+          "actor_type": "persona",
+          "actor_id": "p6_competitor_switcher",
+          "timestep": "day_30",
+          "purchase_intent_delta": 0.5,
+          "loyalty_delta": -0.05,
+          "sentiment": "mixed",
+          "quote": "Nice that the discount is deep, but I'm still keeping an eye on the competitor's points system to see if they can beat this value.",
+          "persona_name": "Competitor Switcher"
+        },
+        {
+          "event_id": "evt_31a45a1c",
+          "actor_type": "persona",
+          "actor_id": "p1_deal_seeker",
+          "timestep": "day_90",
+          "purchase_intent_delta": 0.3,
+          "loyalty_delta": -0.05,
+          "sentiment": "mixed",
+          "quote": "The 34% off still feels great, but I’m already eyeing my next brand’s sale—this deal is cool, just not the only reason I’ll stick around.",
+          "persona_name": "Deal Seeker"
+        },
+        {
+          "event_id": "evt_24235066",
+          "actor_type": "persona",
+          "actor_id": "p2_brand_loyal_premium",
+          "timestep": "day_90",
+          "purchase_intent_delta": -0.9,
+          "loyalty_delta": -0.6,
+          "sentiment": "negative",
+          "quote": "After seeing that 34% discount, I’m convinced the brand has finally decided to sell its soul for a quick profit, and I’m seriously looking at alternatives.",
+          "persona_name": "Brand-Loyal Premium Buyer"
+        },
+        {
+          "event_id": "evt_32ef40ab",
+          "actor_type": "persona",
+          "actor_id": "p3_occasional_browser",
+          "timestep": "day_90",
+          "purchase_intent_delta": 0.6,
+          "loyalty_delta": 0.1,
+          "sentiment": "positive",
+          "quote": "I’m actually thinking about grabbing that tote now—34% off feels like a real steal, so I might finally hit checkout instead of just scrolling.",
+          "persona_name": "Occasional Browser"
+        },
+        {
+          "event_id": "evt_1e77f1f5",
+          "actor_type": "persona",
+          "actor_id": "p4_high_ltv_repeat_buyer",
+          "timestep": "day_90",
+          "purchase_intent_delta": 0.05,
+          "loyalty_delta": 0.05,
+          "sentiment": "mixed",
+          "quote": "I appreciate the 34% off, but I’ll still buy because these pieces just fit my style.",
+          "persona_name": "High-LTV Repeat Buyer"
+        },
+        {
+          "event_id": "evt_d8e80750",
+          "actor_type": "persona",
+          "actor_id": "p5_budget_conscious_family",
+          "timestep": "day_90",
+          "purchase_intent_delta": 0.3,
+          "loyalty_delta": -0.1,
+          "sentiment": "mixed",
+          "quote": "I’m happy with what I got, but I’m holding off on the rest until I can snag a bigger bundle before the discount dips again.",
+          "persona_name": "Budget-Conscious Family Shopper"
+        },
+        {
+          "event_id": "evt_797475ca",
+          "actor_type": "persona",
+          "actor_id": "p6_competitor_switcher",
+          "timestep": "day_90",
+          "purchase_intent_delta": 0.6,
+          "loyalty_delta": -0.1,
+          "sentiment": "mixed",
+          "quote": "The 34% off is tempting, but I'm still weighing the competitor's loyalty perks to see if they can outshine this deal.",
+          "persona_name": "Competitor Switcher"
+        },
+        {
+          "event_id": "evt_ba1d4113",
+          "actor_type": "competitor",
+          "actor_id": "c1_fast_follower",
+          "timestep": "day_30",
+          "action": "match",
+          "rationale": "With a high price‑match tendency and a history of matching rivals’ discounts within a week, Northline will mirror the 34% sitewide offer to prevent losing the uptick in purchase intent, while keeping the price differential modest to maintain its mid‑market challenger positioning.",
+          "competitor_name": "Northline Apparel",
+          "observed_avg_intent_delta": 0.25,
+          "observed_avg_loyalty_delta": -0.0417
+        },
+        {
+          "event_id": "evt_228f136a",
+          "actor_type": "competitor",
+          "actor_id": "c2_premium_holdout",
+          "timestep": "day_30",
+          "action": "hold",
+          "rationale": "Aldenwood & Co. has historically maintained premium pricing and rarely matches discounts; the modest lift in purchase intent does not offset the risk of eroding brand prestige, so we continue to hold our positioning.",
+          "competitor_name": "Aldenwood & Co.",
+          "observed_avg_intent_delta": 0.25,
+          "observed_avg_loyalty_delta": -0.0417
+        },
+        {
+          "event_id": "evt_b77726e1",
+          "actor_type": "competitor",
+          "actor_id": "c1_fast_follower",
+          "timestep": "day_90",
+          "action": "match",
+          "rationale": "As a fast‑follower mid‑market challenger with a high price‑match tendency, Northline Apparel will mirror the rival’s 34% sitewide discount to retain price‑sensitive customers whose intent is rising but loyalty is slipping.",
+          "competitor_name": "Northline Apparel",
+          "observed_avg_intent_delta": 0.1583,
+          "observed_avg_loyalty_delta": -0.1167
+        },
+        {
+          "event_id": "evt_b1947777",
+          "actor_type": "competitor",
+          "actor_id": "c2_premium_holdout",
+          "timestep": "day_90",
+          "action": "hold",
+          "rationale": "Aldenwood & Co. remains a heritage premium brand that rarely discounts; the observed rise in purchase intent is offset by a drop in loyalty, so maintaining price integrity reinforces long‑term brand equity rather than matching a fleeting discount wave.",
+          "competitor_name": "Aldenwood & Co.",
+          "observed_avg_intent_delta": 0.1583,
+          "observed_avg_loyalty_delta": -0.1167
+        },
+        {
+          "event_id": "evt_guardrail_023",
+          "actor_type": "guardrail",
+          "actor_id": "guardrails_agent",
+          "timestep": "day_90",
+          "primary_risk": "The 34% sitewide discount triggers a permanent loss of the high-margin, high-loyalty 'Brand-Loyal Premium' segment due to brand devaluation, which is not offset by the volume lift from deal-seekers, resulting in a net profit decline.",
+          "risk_assessment": {
+            "overall": "high",
+            "customer": "high",
+            "financial": "high",
+            "competitive": "medium",
+            "brand": "high"
+          },
+          "evidence": [
+            {
+              "claim": "The decision results in a significant net profit loss despite increased purchase intent from other segments.",
+              "source": "financial_analysis.profit_delta",
+              "value": "-870990.28"
+            },
+            {
+              "claim": "The Brand-Loyal Premium Buyer persona experiences a severe and accelerating drop in loyalty and purchase intent, indicating churn risk for the highest-value customers.",
+              "source": "event:evt_24235066",
+              "value": "loyalty_delta: -0.6, purchase_intent_delta: -0.9"
+            },
+            {
+              "claim": "Historical data shows that discounts exceeding 30% on a sitewide or large-category basis lead to long-term repeat purchase depression (negative repeat purchase delta of -8.0%).",
+              "source": "historical:hd_004",
+              "value": "repeat_purchase_delta_pct: -8.0"
+            },
+            {
+              "claim": "The margin erosion on signature items like the Leather Tote is substantial, dropping from 60.15% to 45.66%, which directly impacts the brand's premium positioning.",
+              "source": "financial_analysis.per_product_margin[1]",
+              "value": "sku_002 margin_delta_pct: -14.49"
+            },
+            {
+              "claim": "While Deal Seekers and Budget Shoppers show positive initial intent, their loyalty gains are marginal or negative by day 90, suggesting they are price-sensitive rather than brand-loyal.",
+              "source": "event:evt_31a45a1c",
+              "value": "p1_deal_seeker loyalty_delta: -0.05"
+            }
+          ],
+          "recommendation": "Set Reduce the sitewide discount to 15% and exclude the 'accessories' and 'home' categories (which include the signature Leather Tote and Pour-Over Set) from the discount, applying the 15% only to 'apparel', 'footwear', 'kids', and 'outerwear'. to 15.0% (apparel, footwear, kids, outerwear)",
+          "rationale": "A 15% sitewide discount historically yielded a positive repeat purchase delta of 1.0% (historical:hd_003) and a modest margin impact (-4.0%), avoiding the churn risk seen in the 34% scenario. By excluding premium accessories (like sku_002) from the discount, we protect the brand equity that the 'Brand-Loyal Premium' persona values, as evidenced by their negative sentiment toward 'weaponized' pricing (event:evt_2b314a46), while still capturing the volume lift from price-sensitive segments on high-elasticity items like apparel and footwear.",
+          "confidence": 0.75,
+          "confidence_factors": {
+            "historical_evidence": 0.8,
+            "comparable_decisions": 2,
+            "data_completeness": 1,
+            "simulation_consistency": 0.49
+          },
+          "impact_summary": {
+            "revenue_delta": -391848.15,
+            "profit_delta": -870990.28,
+            "aov_delta": -25.73,
+            "avg_margin_delta_pct": -14.3,
+            "discount_cost": 1156800
+          }
+        }
+      ]
+    },
+    "id": "sim_a4af62c3",
+    "created_at": "2026-09-02T12:34:37.953947+00:00",
+    "status": "approved"
+  },
+  {
+    "scenario_id": "scn_sitewide_discount_37",
+    "discount_pct": 37.0,
+    "product_id": "all",
+    "category": "sitewide",
+    "product_ids": [],
+    "initiated_by": "Chen",
+    "revenue": 4502415.56,
+    "revenue_change_pct": -6.588888796680506,
+    "margin_impact_pct": -9.180000000000001,
+    "repeat_purchase_rate": 0.4267,
+    "avg_order_value": 67.55,
+    "full_price_purchase_pct": 55.31,
+    "guardrail_recommendation": 20.0,
+    "selected_node_id": "conversion",
+    "evidence": {},
+    "id": "sim_12a221d6",
+    "created_at": "2026-09-03T07:48:46.268346+00:00",
+    "status": "under_review"
+  },
+  {
+    "scenario_id": "scn_sitewide_discount_37",
+    "discount_pct": 37.0,
+    "product_id": null,
+    "category": "sitewide",
+    "product_ids": [],
+    "initiated_by": "simulator",
+    "revenue": null,
+    "revenue_change_pct": -6.588888796680497,
+    "margin_impact_pct": 0.0,
+    "repeat_purchase_rate": 0.4267,
+    "avg_order_value": 67.55,
+    "full_price_purchase_pct": 55.31,
+    "guardrail_recommendation": null,
+    "selected_node_id": null,
+    "evidence": {
+      "scenario_id": "scn_sitewide_discount_37",
+      "events": [
+        {
+          "event_id": "evt_28f9fe5e",
+          "actor_type": "persona",
+          "actor_id": "p1_deal_seeker",
+          "timestep": "day_0",
+          "purchase_intent_delta": 0.8,
+          "loyalty_delta": 0.1,
+          "sentiment": "positive",
+          "quote": "I’m all in—37% off sitewide means I can snag a new sweater and tote without breaking the bank!",
+          "persona_name": "Deal Seeker"
+        },
+        {
+          "event_id": "evt_0104a905",
+          "actor_type": "persona",
+          "actor_id": "p2_brand_loyal_premium",
+          "timestep": "day_0",
+          "purchase_intent_delta": -0.2,
+          "loyalty_delta": -0.15,
+          "sentiment": "negative",
+          "quote": "I don't trust a brand that suddenly offers such deep discounts.",
+          "persona_name": "Brand-Loyal Premium Buyer"
+        },
+        {
+          "event_id": "evt_a223e84f",
+          "actor_type": "persona",
+          "actor_id": "p3_occasional_browser",
+          "timestep": "day_0",
+          "purchase_intent_delta": 0.7,
+          "loyalty_delta": 0.2,
+          "sentiment": "positive",
+          "quote": "Whoa, 37% off? Looks like I might finally grab that tote I’ve been eyeing.",
+          "persona_name": "Occasional Browser"
+        },
+        {
+          "event_id": "evt_34a4cf74",
+          "actor_type": "persona",
+          "actor_id": "p4_high_ltv_repeat_buyer",
+          "timestep": "day_0",
+          "purchase_intent_delta": 0.2,
+          "loyalty_delta": 0.1,
+          "sentiment": "positive",
+          "quote": "I love that everything’s suddenly cheaper—great news for my wardrobe, but I’ll still pick the pieces that fit best.",
+          "persona_name": "High-LTV Repeat Buyer"
+        },
+        {
+          "event_id": "evt_05f35c10",
+          "actor_type": "persona",
+          "actor_id": "p5_budget_conscious_family",
+          "timestep": "day_0",
+          "purchase_intent_delta": 0.6,
+          "loyalty_delta": 0.1,
+          "sentiment": "positive",
+          "quote": "I can’t believe the prices are slashed to 37%—time to stock up on everything we need for the kids and the house!",
+          "persona_name": "Budget-Conscious Family Shopper"
+        },
+        {
+          "event_id": "evt_1f669135",
+          "actor_type": "persona",
+          "actor_id": "p6_competitor_switcher",
+          "timestep": "day_0",
+          "purchase_intent_delta": 0.6,
+          "loyalty_delta": 0.1,
+          "sentiment": "positive",
+          "quote": "I’m all in on that 37% off—time to snag something before the rivals beat me again!",
+          "persona_name": "Competitor Switcher"
+        },
+        {
+          "event_id": "evt_f0f6209c",
+          "actor_type": "persona",
+          "actor_id": "p1_deal_seeker",
+          "timestep": "day_30",
+          "purchase_intent_delta": 0.92,
+          "loyalty_delta": 0.04,
+          "sentiment": "positive",
+          "quote": "I can’t believe the 37% off—finally a good deal on that jacket and tote, and I’m already planning my next haul!",
+          "persona_name": "Deal Seeker"
+        },
+        {
+          "event_id": "evt_b88a10e2",
+          "actor_type": "persona",
+          "actor_id": "p2_brand_loyal_premium",
+          "timestep": "day_30",
+          "purchase_intent_delta": -0.4,
+          "loyalty_delta": -0.2,
+          "sentiment": "negative",
+          "quote": "Seeing a 37% discount on everything feels like the brand is losing its craftsmanship and value.",
+          "persona_name": "Brand-Loyal Premium Buyer"
+        },
+        {
+          "event_id": "evt_183ba7ed",
+          "actor_type": "persona",
+          "actor_id": "p3_occasional_browser",
+          "timestep": "day_30",
+          "purchase_intent_delta": 0.4,
+          "loyalty_delta": 0.1,
+          "sentiment": "mixed",
+          "quote": "Still thinking about that tote, but I’ve got a few other things on my radar.",
+          "persona_name": "Occasional Browser"
+        },
+        {
+          "event_id": "evt_d7d03dab",
+          "actor_type": "persona",
+          "actor_id": "p4_high_ltv_repeat_buyer",
+          "timestep": "day_30",
+          "purchase_intent_delta": 0.1,
+          "loyalty_delta": 0.05,
+          "sentiment": "mixed",
+          "quote": "The 37% off is a nice boost, but I’ll still pick the pieces that fit best and wait for the next seasonal sale to get the best value.",
+          "persona_name": "High-LTV Repeat Buyer"
+        },
+        {
+          "event_id": "evt_d1d413fd",
+          "actor_type": "persona",
+          "actor_id": "p5_budget_conscious_family",
+          "timestep": "day_30",
+          "purchase_intent_delta": 0.5,
+          "loyalty_delta": 0.05,
+          "sentiment": "positive",
+          "quote": "With 37% off, I'm buying a whole bag of kids' gear and household staples—this is a deal I can't pass up.",
+          "persona_name": "Budget-Conscious Family Shopper"
+        },
+        {
+          "event_id": "evt_0cbb0f5d",
+          "actor_type": "persona",
+          "actor_id": "p6_competitor_switcher",
+          "timestep": "day_30",
+          "purchase_intent_delta": 0.4,
+          "loyalty_delta": 0.05,
+          "sentiment": "mixed",
+          "quote": "37% is sweet, but I’ll keep my eyes on the rivals’ promos before I hit the checkout.",
+          "persona_name": "Competitor Switcher"
+        },
+        {
+          "event_id": "evt_54d804c5",
+          "actor_type": "persona",
+          "actor_id": "p1_deal_seeker",
+          "timestep": "day_90",
+          "purchase_intent_delta": 0.85,
+          "loyalty_delta": 0.03,
+          "sentiment": "mixed",
+          "quote": "I’m still pumped for the 37% off, but I’m already eyeing a rival’s sale next week to see if they can beat this haul.",
+          "persona_name": "Deal Seeker"
+        },
+        {
+          "event_id": "evt_338ea601",
+          "actor_type": "persona",
+          "actor_id": "p2_brand_loyal_premium",
+          "timestep": "day_90",
+          "purchase_intent_delta": -0.6,
+          "loyalty_delta": -0.3,
+          "sentiment": "negative",
+          "quote": "After three months of this 37% slide, I feel the brand's promise of craftsmanship has turned into a marketing gimmick I can’t ignore.",
+          "persona_name": "Brand-Loyal Premium Buyer"
+        },
+        {
+          "event_id": "evt_8966db45",
+          "actor_type": "persona",
+          "actor_id": "p3_occasional_browser",
+          "timestep": "day_90",
+          "purchase_intent_delta": 0.3,
+          "loyalty_delta": 0.05,
+          "sentiment": "mixed",
+          "quote": "I’m still eyeing that tote, but with 37% off it’s the only thing that’s making me think about buying right now.",
+          "persona_name": "Occasional Browser"
+        },
+        {
+          "event_id": "evt_dc957853",
+          "actor_type": "persona",
+          "actor_id": "p4_high_ltv_repeat_buyer",
+          "timestep": "day_90",
+          "purchase_intent_delta": 0.15,
+          "loyalty_delta": 0.02,
+          "sentiment": "mixed",
+          "quote": "The 37% off is still a great deal, but I’ll keep looking for the exact fit that works best for me.",
+          "persona_name": "High-LTV Repeat Buyer"
+        },
+        {
+          "event_id": "evt_28b85198",
+          "actor_type": "persona",
+          "actor_id": "p5_budget_conscious_family",
+          "timestep": "day_90",
+          "purchase_intent_delta": 0.4,
+          "loyalty_delta": 0.02,
+          "sentiment": "mixed",
+          "quote": "The 37% off still makes me stock up, but I’m starting to wonder if I’m getting the best value if I keep buying every single item on sale.",
+          "persona_name": "Budget-Conscious Family Shopper"
+        },
+        {
+          "event_id": "evt_ea4a2d12",
+          "actor_type": "persona",
+          "actor_id": "p6_competitor_switcher",
+          "timestep": "day_90",
+          "purchase_intent_delta": 0.3,
+          "loyalty_delta": -0.02,
+          "sentiment": "mixed",
+          "quote": "37% is still good, but I’ll double‑check the rivals’ offers before I lock in a purchase.",
+          "persona_name": "Competitor Switcher"
+        },
+        {
+          "event_id": "evt_05d6a1e5",
+          "actor_type": "competitor",
+          "actor_id": "c1_fast_follower",
+          "timestep": "day_30",
+          "action": "match",
+          "rationale": "As a fast follower with a high price‑match tendency, Northline must mirror the rival’s 37% sitewide discount within 5‑7 days to retain market share, especially after seeing a significant lift in purchase intent and a slight dip in loyalty.",
+          "competitor_name": "Northline Apparel",
+          "observed_avg_intent_delta": 0.32,
+          "observed_avg_loyalty_delta": 0.015
+        },
+        {
+          "event_id": "evt_8719479a",
+          "actor_type": "competitor",
+          "actor_id": "c2_premium_holdout",
+          "timestep": "day_30",
+          "action": "hold",
+          "rationale": "Aldenwood & Co. will maintain its premium positioning, as its low price-match tendency and history of resisting discounts align with preserving brand value, despite a modest rise in rival purchase intent.",
+          "competitor_name": "Aldenwood & Co.",
+          "observed_avg_intent_delta": 0.32,
+          "observed_avg_loyalty_delta": 0.015
+        },
+        {
+          "event_id": "evt_fc3ecae6",
+          "actor_type": "competitor",
+          "actor_id": "c1_fast_follower",
+          "timestep": "day_90",
+          "action": "escalate",
+          "rationale": "With a 0.85 price‑match tendency and a history of beating rivals’ sitewide cuts, Northline must counter the 37% discount to prevent the uptick in purchase intent for the competitor, even at the cost of a deeper promo to maintain its mid‑market challenger stance.",
+          "competitor_name": "Northline Apparel",
+          "observed_avg_intent_delta": 0.2333,
+          "observed_avg_loyalty_delta": -0.0333
+        },
+        {
+          "event_id": "evt_ebd68add",
+          "actor_type": "competitor",
+          "actor_id": "c2_premium_holdout",
+          "timestep": "day_90",
+          "action": "hold",
+          "rationale": "Aldenwood & Co. remains true to its heritage premium positioning, avoiding a price war that could erode perceived quality, while leveraging loyalty perks and limited‑edition drops to retain its core customers amid the rival’s aggressive discounting.",
+          "competitor_name": "Aldenwood & Co.",
+          "observed_avg_intent_delta": 0.2333,
+          "observed_avg_loyalty_delta": -0.0333
+        },
+        {
+          "event_id": "evt_guardrail_023",
+          "actor_type": "guardrail",
+          "actor_id": "guardrails_agent",
+          "timestep": "day_90",
+          "primary_risk": "The 37% sitewide discount triggers a permanent erosion of brand equity among high-value loyal customers, leading to a structural decline in repeat purchase rates that outweighs the short-term volume lift.",
+          "risk_assessment": {
+            "overall": "high",
+            "customer": "high",
+            "financial": "high",
+            "competitive": "medium",
+            "brand": "high"
+          },
+          "evidence": [
+            {
+              "claim": "The deep discount causes a significant and accelerating drop in purchase intent and loyalty for the Brand-Loyal Premium Buyer persona.",
+              "source": "event:evt_338ea601",
+              "value": "purchase_intent_delta: -0.6, loyalty_delta: -0.3, quote: 'I feel the brand's promise of craftsmanship has turned into a marketing gimmick'"
+            },
+            {
+              "claim": "The financial impact is severe, with profit decreasing by nearly one million dollars due to the depth of the discount.",
+              "source": "financial_analysis.profit_delta",
+              "value": "-951526.34"
+            },
+            {
+              "claim": "Historical data confirms that discounts of this magnitude (35%) lead to long-term suppression of repeat purchase rates.",
+              "source": "historical:hd_004",
+              "value": "repeat_purchase_delta_pct: -8.0, notes: 'Repeat purchase rate stayed depressed for two quarters after'"
+            },
+            {
+              "claim": "The discount erodes margins across all product categories, with some items seeing margin drops exceeding 18%.",
+              "source": "financial_analysis.per_product_margin",
+              "value": "sku_003 margin_delta_pct: -20.35"
+            }
+          ],
+          "recommendation": "Set Implement a 20% sitewide discount instead of 37%, targeting deal-seekers without triggering the brand equity loss associated with deep discounting. to 20.0% (sitewide)",
+          "rationale": "The 37% discount results in a net negative financial outcome (profit_delta: -951,526.34) and severe brand damage (loyalty_delta: -0.3 for premium buyers), whereas historical data (hd_001) shows that a 20% discount yields a positive conversion lift (12.0%) with manageable margin erosion (-9.0%) and minimal repeat purchase penalty (-3.0%). This alternative captures the short-term volume boost desired by the Deal Seeker persona (evt_28f9fe5e) without alienating the High-LTV Repeat Buyer (evt_dc957853) or destroying the brand's premium perception.",
+          "confidence": 0.72,
+          "confidence_factors": {
+            "historical_evidence": 0.6,
+            "comparable_decisions": 1,
+            "data_completeness": 1,
+            "simulation_consistency": 0.6
+          },
+          "impact_summary": {
+            "revenue_delta": -317584.44,
+            "profit_delta": -951526.34,
+            "aov_delta": -28.95,
+            "avg_margin_delta_pct": -16.85,
+            "discount_cost": 1301400
+          }
+        }
+      ]
+    },
+    "id": "sim_025d7cde",
+    "created_at": "2026-09-03T07:48:48.340352+00:00",
+    "status": "pending_review"
+  },
+  {
+    "scenario_id": "scn_sitewide_discount_37",
+    "discount_pct": 37.0,
+    "product_id": null,
+    "category": "sitewide",
+    "product_ids": [],
+    "initiated_by": "simulator",
+    "revenue": null,
+    "revenue_change_pct": -6.588888796680497,
+    "margin_impact_pct": 0.0,
+    "repeat_purchase_rate": 0.4267,
+    "avg_order_value": 67.55,
+    "full_price_purchase_pct": 55.31,
+    "guardrail_recommendation": null,
+    "selected_node_id": null,
+    "evidence": {
+      "scenario_id": "scn_sitewide_discount_37",
+      "events": [
+        {
+          "event_id": "evt_28f9fe5e",
+          "actor_type": "persona",
+          "actor_id": "p1_deal_seeker",
+          "timestep": "day_0",
+          "purchase_intent_delta": 0.8,
+          "loyalty_delta": 0.1,
+          "sentiment": "positive",
+          "quote": "I’m all in—37% off sitewide means I can snag a new sweater and tote without breaking the bank!",
+          "persona_name": "Deal Seeker"
+        },
+        {
+          "event_id": "evt_0104a905",
+          "actor_type": "persona",
+          "actor_id": "p2_brand_loyal_premium",
+          "timestep": "day_0",
+          "purchase_intent_delta": -0.2,
+          "loyalty_delta": -0.15,
+          "sentiment": "negative",
+          "quote": "I don't trust a brand that suddenly offers such deep discounts.",
+          "persona_name": "Brand-Loyal Premium Buyer"
+        },
+        {
+          "event_id": "evt_a223e84f",
+          "actor_type": "persona",
+          "actor_id": "p3_occasional_browser",
+          "timestep": "day_0",
+          "purchase_intent_delta": 0.7,
+          "loyalty_delta": 0.2,
+          "sentiment": "positive",
+          "quote": "Whoa, 37% off? Looks like I might finally grab that tote I’ve been eyeing.",
+          "persona_name": "Occasional Browser"
+        },
+        {
+          "event_id": "evt_34a4cf74",
+          "actor_type": "persona",
+          "actor_id": "p4_high_ltv_repeat_buyer",
+          "timestep": "day_0",
+          "purchase_intent_delta": 0.2,
+          "loyalty_delta": 0.1,
+          "sentiment": "positive",
+          "quote": "I love that everything’s suddenly cheaper—great news for my wardrobe, but I’ll still pick the pieces that fit best.",
+          "persona_name": "High-LTV Repeat Buyer"
+        },
+        {
+          "event_id": "evt_05f35c10",
+          "actor_type": "persona",
+          "actor_id": "p5_budget_conscious_family",
+          "timestep": "day_0",
+          "purchase_intent_delta": 0.6,
+          "loyalty_delta": 0.1,
+          "sentiment": "positive",
+          "quote": "I can’t believe the prices are slashed to 37%—time to stock up on everything we need for the kids and the house!",
+          "persona_name": "Budget-Conscious Family Shopper"
+        },
+        {
+          "event_id": "evt_1f669135",
+          "actor_type": "persona",
+          "actor_id": "p6_competitor_switcher",
+          "timestep": "day_0",
+          "purchase_intent_delta": 0.6,
+          "loyalty_delta": 0.1,
+          "sentiment": "positive",
+          "quote": "I’m all in on that 37% off—time to snag something before the rivals beat me again!",
+          "persona_name": "Competitor Switcher"
+        },
+        {
+          "event_id": "evt_f0f6209c",
+          "actor_type": "persona",
+          "actor_id": "p1_deal_seeker",
+          "timestep": "day_30",
+          "purchase_intent_delta": 0.92,
+          "loyalty_delta": 0.04,
+          "sentiment": "positive",
+          "quote": "I can’t believe the 37% off—finally a good deal on that jacket and tote, and I’m already planning my next haul!",
+          "persona_name": "Deal Seeker"
+        },
+        {
+          "event_id": "evt_b88a10e2",
+          "actor_type": "persona",
+          "actor_id": "p2_brand_loyal_premium",
+          "timestep": "day_30",
+          "purchase_intent_delta": -0.4,
+          "loyalty_delta": -0.2,
+          "sentiment": "negative",
+          "quote": "Seeing a 37% discount on everything feels like the brand is losing its craftsmanship and value.",
+          "persona_name": "Brand-Loyal Premium Buyer"
+        },
+        {
+          "event_id": "evt_183ba7ed",
+          "actor_type": "persona",
+          "actor_id": "p3_occasional_browser",
+          "timestep": "day_30",
+          "purchase_intent_delta": 0.4,
+          "loyalty_delta": 0.1,
+          "sentiment": "mixed",
+          "quote": "Still thinking about that tote, but I’ve got a few other things on my radar.",
+          "persona_name": "Occasional Browser"
+        },
+        {
+          "event_id": "evt_d7d03dab",
+          "actor_type": "persona",
+          "actor_id": "p4_high_ltv_repeat_buyer",
+          "timestep": "day_30",
+          "purchase_intent_delta": 0.1,
+          "loyalty_delta": 0.05,
+          "sentiment": "mixed",
+          "quote": "The 37% off is a nice boost, but I’ll still pick the pieces that fit best and wait for the next seasonal sale to get the best value.",
+          "persona_name": "High-LTV Repeat Buyer"
+        },
+        {
+          "event_id": "evt_d1d413fd",
+          "actor_type": "persona",
+          "actor_id": "p5_budget_conscious_family",
+          "timestep": "day_30",
+          "purchase_intent_delta": 0.5,
+          "loyalty_delta": 0.05,
+          "sentiment": "positive",
+          "quote": "With 37% off, I'm buying a whole bag of kids' gear and household staples—this is a deal I can't pass up.",
+          "persona_name": "Budget-Conscious Family Shopper"
+        },
+        {
+          "event_id": "evt_0cbb0f5d",
+          "actor_type": "persona",
+          "actor_id": "p6_competitor_switcher",
+          "timestep": "day_30",
+          "purchase_intent_delta": 0.4,
+          "loyalty_delta": 0.05,
+          "sentiment": "mixed",
+          "quote": "37% is sweet, but I’ll keep my eyes on the rivals’ promos before I hit the checkout.",
+          "persona_name": "Competitor Switcher"
+        },
+        {
+          "event_id": "evt_54d804c5",
+          "actor_type": "persona",
+          "actor_id": "p1_deal_seeker",
+          "timestep": "day_90",
+          "purchase_intent_delta": 0.85,
+          "loyalty_delta": 0.03,
+          "sentiment": "mixed",
+          "quote": "I’m still pumped for the 37% off, but I’m already eyeing a rival’s sale next week to see if they can beat this haul.",
+          "persona_name": "Deal Seeker"
+        },
+        {
+          "event_id": "evt_338ea601",
+          "actor_type": "persona",
+          "actor_id": "p2_brand_loyal_premium",
+          "timestep": "day_90",
+          "purchase_intent_delta": -0.6,
+          "loyalty_delta": -0.3,
+          "sentiment": "negative",
+          "quote": "After three months of this 37% slide, I feel the brand's promise of craftsmanship has turned into a marketing gimmick I can’t ignore.",
+          "persona_name": "Brand-Loyal Premium Buyer"
+        },
+        {
+          "event_id": "evt_8966db45",
+          "actor_type": "persona",
+          "actor_id": "p3_occasional_browser",
+          "timestep": "day_90",
+          "purchase_intent_delta": 0.3,
+          "loyalty_delta": 0.05,
+          "sentiment": "mixed",
+          "quote": "I’m still eyeing that tote, but with 37% off it’s the only thing that’s making me think about buying right now.",
+          "persona_name": "Occasional Browser"
+        },
+        {
+          "event_id": "evt_dc957853",
+          "actor_type": "persona",
+          "actor_id": "p4_high_ltv_repeat_buyer",
+          "timestep": "day_90",
+          "purchase_intent_delta": 0.15,
+          "loyalty_delta": 0.02,
+          "sentiment": "mixed",
+          "quote": "The 37% off is still a great deal, but I’ll keep looking for the exact fit that works best for me.",
+          "persona_name": "High-LTV Repeat Buyer"
+        },
+        {
+          "event_id": "evt_28b85198",
+          "actor_type": "persona",
+          "actor_id": "p5_budget_conscious_family",
+          "timestep": "day_90",
+          "purchase_intent_delta": 0.4,
+          "loyalty_delta": 0.02,
+          "sentiment": "mixed",
+          "quote": "The 37% off still makes me stock up, but I’m starting to wonder if I’m getting the best value if I keep buying every single item on sale.",
+          "persona_name": "Budget-Conscious Family Shopper"
+        },
+        {
+          "event_id": "evt_ea4a2d12",
+          "actor_type": "persona",
+          "actor_id": "p6_competitor_switcher",
+          "timestep": "day_90",
+          "purchase_intent_delta": 0.3,
+          "loyalty_delta": -0.02,
+          "sentiment": "mixed",
+          "quote": "37% is still good, but I’ll double‑check the rivals’ offers before I lock in a purchase.",
+          "persona_name": "Competitor Switcher"
+        },
+        {
+          "event_id": "evt_05d6a1e5",
+          "actor_type": "competitor",
+          "actor_id": "c1_fast_follower",
+          "timestep": "day_30",
+          "action": "match",
+          "rationale": "As a fast follower with a high price‑match tendency, Northline must mirror the rival’s 37% sitewide discount within 5‑7 days to retain market share, especially after seeing a significant lift in purchase intent and a slight dip in loyalty.",
+          "competitor_name": "Northline Apparel",
+          "observed_avg_intent_delta": 0.32,
+          "observed_avg_loyalty_delta": 0.015
+        },
+        {
+          "event_id": "evt_8719479a",
+          "actor_type": "competitor",
+          "actor_id": "c2_premium_holdout",
+          "timestep": "day_30",
+          "action": "hold",
+          "rationale": "Aldenwood & Co. will maintain its premium positioning, as its low price-match tendency and history of resisting discounts align with preserving brand value, despite a modest rise in rival purchase intent.",
+          "competitor_name": "Aldenwood & Co.",
+          "observed_avg_intent_delta": 0.32,
+          "observed_avg_loyalty_delta": 0.015
+        },
+        {
+          "event_id": "evt_fc3ecae6",
+          "actor_type": "competitor",
+          "actor_id": "c1_fast_follower",
+          "timestep": "day_90",
+          "action": "escalate",
+          "rationale": "With a 0.85 price‑match tendency and a history of beating rivals’ sitewide cuts, Northline must counter the 37% discount to prevent the uptick in purchase intent for the competitor, even at the cost of a deeper promo to maintain its mid‑market challenger stance.",
+          "competitor_name": "Northline Apparel",
+          "observed_avg_intent_delta": 0.2333,
+          "observed_avg_loyalty_delta": -0.0333
+        },
+        {
+          "event_id": "evt_ebd68add",
+          "actor_type": "competitor",
+          "actor_id": "c2_premium_holdout",
+          "timestep": "day_90",
+          "action": "hold",
+          "rationale": "Aldenwood & Co. remains true to its heritage premium positioning, avoiding a price war that could erode perceived quality, while leveraging loyalty perks and limited‑edition drops to retain its core customers amid the rival’s aggressive discounting.",
+          "competitor_name": "Aldenwood & Co.",
+          "observed_avg_intent_delta": 0.2333,
+          "observed_avg_loyalty_delta": -0.0333
+        },
+        {
+          "event_id": "evt_guardrail_023",
+          "actor_type": "guardrail",
+          "actor_id": "guardrails_agent",
+          "timestep": "day_90",
+          "primary_risk": "The 37% sitewide discount triggers a permanent erosion of brand equity among high-value loyal customers, leading to a structural decline in repeat purchase rates that outweighs the short-term volume lift.",
+          "risk_assessment": {
+            "overall": "high",
+            "customer": "high",
+            "financial": "high",
+            "competitive": "medium",
+            "brand": "high"
+          },
+          "evidence": [
+            {
+              "claim": "The deep discount causes a significant and accelerating drop in purchase intent and loyalty for the Brand-Loyal Premium Buyer persona.",
+              "source": "event:evt_338ea601",
+              "value": "purchase_intent_delta: -0.6, loyalty_delta: -0.3, quote: 'I feel the brand's promise of craftsmanship has turned into a marketing gimmick'"
+            },
+            {
+              "claim": "The financial impact is severe, with profit decreasing by nearly one million dollars due to the depth of the discount.",
+              "source": "financial_analysis.profit_delta",
+              "value": "-951526.34"
+            },
+            {
+              "claim": "Historical data confirms that discounts of this magnitude (35%) lead to long-term suppression of repeat purchase rates.",
+              "source": "historical:hd_004",
+              "value": "repeat_purchase_delta_pct: -8.0, notes: 'Repeat purchase rate stayed depressed for two quarters after'"
+            },
+            {
+              "claim": "The discount erodes margins across all product categories, with some items seeing margin drops exceeding 18%.",
+              "source": "financial_analysis.per_product_margin",
+              "value": "sku_003 margin_delta_pct: -20.35"
+            }
+          ],
+          "recommendation": "Set Implement a 20% sitewide discount instead of 37%, targeting deal-seekers without triggering the brand equity loss associated with deep discounting. to 20.0% (sitewide)",
+          "rationale": "The 37% discount results in a net negative financial outcome (profit_delta: -951,526.34) and severe brand damage (loyalty_delta: -0.3 for premium buyers), whereas historical data (hd_001) shows that a 20% discount yields a positive conversion lift (12.0%) with manageable margin erosion (-9.0%) and minimal repeat purchase penalty (-3.0%). This alternative captures the short-term volume boost desired by the Deal Seeker persona (evt_28f9fe5e) without alienating the High-LTV Repeat Buyer (evt_dc957853) or destroying the brand's premium perception.",
+          "confidence": 0.72,
+          "confidence_factors": {
+            "historical_evidence": 0.6,
+            "comparable_decisions": 1,
+            "data_completeness": 1,
+            "simulation_consistency": 0.6
+          },
+          "impact_summary": {
+            "revenue_delta": -317584.44,
+            "profit_delta": -951526.34,
+            "aov_delta": -28.95,
+            "avg_margin_delta_pct": -16.85,
+            "discount_cost": 1301400
+          }
+        }
+      ]
+    },
+    "id": "sim_fe4fdd43",
+    "created_at": "2026-09-03T07:57:00.126590+00:00",
+    "status": "pending_review"
+  }
+]

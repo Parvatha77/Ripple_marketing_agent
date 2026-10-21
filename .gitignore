@@ -1,0 +1,7 @@
+.env
+.env.*
+!.env.example
+**/.vite/
+*.log
+*_pid.txt
+**/.claude/settings.local.json

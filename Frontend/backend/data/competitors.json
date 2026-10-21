@@ -1,0 +1,18 @@
+[
+  {
+    "competitor_id": "c1_fast_follower",
+    "name": "Northline Apparel",
+    "archetype": "Fast Follower",
+    "positioning": "Mid-market challenger brand that competes primarily on price and promo cadence",
+    "price_match_tendency": 0.85,
+    "historical_behavior": "Matched or beaten the last three sitewide discounts from major competitors within 5-7 days, typically escalating by an extra 5 points"
+  },
+  {
+    "competitor_id": "c2_premium_holdout",
+    "name": "Aldenwood & Co.",
+    "archetype": "Premium Holdout",
+    "positioning": "Heritage premium brand that competes on perceived quality and rarely discounts",
+    "price_match_tendency": 0.15,
+    "historical_behavior": "Held price through two prior industry-wide discount waves, instead leaning into loyalty perks and limited-edition drops to retain customers"
+  }
+]

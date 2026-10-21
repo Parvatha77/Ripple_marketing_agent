@@ -1,0 +1,10 @@
+{
+  "scenario_id": "scn_sitewide_discount_30",
+  "decision_type": "sitewide_discount_change",
+  "old_value": 10,
+  "new_value": 30,
+  "unit": "percent",
+  "scope": "sitewide",
+  "effective_date": "2026-09-01",
+  "description": "Increase the standing sitewide discount from 10% to 30% across all product categories, effective September 1."
+}

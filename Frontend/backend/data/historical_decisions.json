@@ -1,0 +1,46 @@
+[
+  {
+    "decision_id": "hd_001",
+    "decision": "20% sitewide discount",
+    "period": "2025-Q4",
+    "discount_pct": 20,
+    "conversion_delta_pct": 12.0,
+    "aov_delta_pct": -7.0,
+    "margin_delta_pct": -9.0,
+    "repeat_purchase_delta_pct": -3.0,
+    "notes": "Holiday sitewide promotion, apparel-heavy basket mix."
+  },
+  {
+    "decision_id": "hd_002",
+    "decision": "25% category discount (footwear only)",
+    "period": "2025-Q2",
+    "discount_pct": 25,
+    "conversion_delta_pct": 9.5,
+    "aov_delta_pct": -4.0,
+    "margin_delta_pct": -11.5,
+    "repeat_purchase_delta_pct": -1.0,
+    "notes": "Footwear-only promo, no measurable competitor response."
+  },
+  {
+    "decision_id": "hd_003",
+    "decision": "15% sitewide discount",
+    "period": "2024-Q4",
+    "discount_pct": 15,
+    "conversion_delta_pct": 6.0,
+    "aov_delta_pct": -2.0,
+    "margin_delta_pct": -4.0,
+    "repeat_purchase_delta_pct": 1.0,
+    "notes": "Modest lift, no measurable loyalty erosion in the high-LTV segment."
+  },
+  {
+    "decision_id": "hd_004",
+    "decision": "35% clearance discount (outerwear, end of season)",
+    "period": "2024-Q1",
+    "discount_pct": 35,
+    "conversion_delta_pct": 18.0,
+    "aov_delta_pct": -14.0,
+    "margin_delta_pct": -19.0,
+    "repeat_purchase_delta_pct": -8.0,
+    "notes": "Deepest historical discount on record. Repeat purchase rate stayed depressed for two quarters after, and competitor Northline matched within a week."
+  }
+]

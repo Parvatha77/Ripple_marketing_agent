@@ -1,0 +1,104 @@
+[
+  {
+    "persona_id": "p1_deal_seeker",
+    "segment_name": "Deal Seeker",
+    "description": "Buys almost exclusively during sales and promo windows",
+    "backstory": "Maria checks her favorite brands' apps every Friday looking for markdowns and has three cashback browser extensions installed. She has a mental price ceiling for every product category and simply will not buy above it. She's proud of how little she pays and talks about her hauls with friends, but she has almost no attachment to any single brand — if a competitor runs a bigger sale, she's gone. She's bought from this brand five times in the last year, every single time during a promotion of 25% or more.",
+    "purchase_history": {
+      "avg_order_value": 42.50,
+      "purchase_frequency_per_year": 5,
+      "last_purchase_days_ago": 12,
+      "total_lifetime_spend": 610.00,
+      "typical_categories": ["apparel", "accessories"]
+    },
+    "discount_sensitivity": 0.95,
+    "brand_loyalty": 0.15,
+    "preferred_channel": "email",
+    "price_perception": "Won't buy unless there's a visible markdown — full price feels like being ripped off."
+  },
+  {
+    "persona_id": "p2_brand_loyal_premium",
+    "segment_name": "Brand-Loyal Premium Buyer",
+    "description": "High-spend customer who buys at full price out of trust in the brand",
+    "backstory": "David has been buying this brand for six years and rarely even checks the price before adding to cart. He values consistency and craftsmanship over savings, and he associates frequent discounting with a brand cheapening itself. He's mentioned to friends that he stopped shopping a competitor after they started running sales every other week, saying it made him question the product's real value. He buys season-defining pieces at full price, several times a year, and expects the brand to behave the way premium brands behave.",
+    "purchase_history": {
+      "avg_order_value": 310.00,
+      "purchase_frequency_per_year": 4,
+      "last_purchase_days_ago": 40,
+      "total_lifetime_spend": 7440.00,
+      "typical_categories": ["outerwear", "footwear"]
+    },
+    "discount_sensitivity": 0.10,
+    "brand_loyalty": 0.90,
+    "preferred_channel": "app_push",
+    "price_perception": "Price is secondary to trust — frequent discounts read as a red flag, not a reward."
+  },
+  {
+    "persona_id": "p3_occasional_browser",
+    "segment_name": "Occasional Browser",
+    "description": "Window-shops often, converts rarely, needs a strong nudge to buy",
+    "backstory": "Priya follows the brand on Instagram and opens the app a few times a month out of habit more than intent. She's bought exactly twice in the past year, both times after seeing a product she'd already been eyeing go on sale. She doesn't have strong opinions about the brand one way or another — it's just one of a dozen she casually follows — and a big enough discount is what tips her from browsing to buying, but she's just as likely to forget about it entirely if nothing catches her eye.",
+    "purchase_history": {
+      "avg_order_value": 65.00,
+      "purchase_frequency_per_year": 2,
+      "last_purchase_days_ago": 95,
+      "total_lifetime_spend": 130.00,
+      "typical_categories": ["accessories", "home"]
+    },
+    "discount_sensitivity": 0.60,
+    "brand_loyalty": 0.30,
+    "preferred_channel": "sms",
+    "price_perception": "Needs a reason to act now rather than 'maybe later' — a sale is often that reason."
+  },
+  {
+    "persona_id": "p4_high_ltv_repeat_buyer",
+    "segment_name": "High-LTV Repeat Buyer",
+    "description": "Frequent, high-value purchaser motivated by product fit, not price",
+    "backstory": "Angela orders from this brand almost monthly and has built her wardrobe around it. She's mildly discount-aware — she'll wait a couple weeks if she knows a sale is coming — but she isn't going to stop buying if there's no sale, because the product simply works for her. She's the kind of customer a brand tracks closely in CRM: high frequency, high average order value, low churn risk, but not completely price-blind either.",
+    "purchase_history": {
+      "avg_order_value": 155.00,
+      "purchase_frequency_per_year": 11,
+      "last_purchase_days_ago": 18,
+      "total_lifetime_spend": 9280.00,
+      "typical_categories": ["apparel", "footwear", "accessories"]
+    },
+    "discount_sensitivity": 0.35,
+    "brand_loyalty": 0.75,
+    "preferred_channel": "email",
+    "price_perception": "Buys because it works for her — a sale is a nice bonus, not a precondition."
+  },
+  {
+    "persona_id": "p5_budget_conscious_family",
+    "segment_name": "Budget-Conscious Family Shopper",
+    "description": "Buys practical, recurring-need items for the household on a tight budget",
+    "backstory": "Tanya shops for her family of four and treats every purchase as a line item against a monthly budget. She's not brand-obsessed, but she has landed on a few brands she trusts for fit and durability, this one included, and she'll stay loyal to those as long as the price stays reasonable. A steep, sustained discount changes her math meaningfully — she'll stock up during a big sale rather than buying piece by piece — but if prices crept back up permanently she'd likely shift a chunk of her spend to a cheaper alternative.",
+    "purchase_history": {
+      "avg_order_value": 88.00,
+      "purchase_frequency_per_year": 7,
+      "last_purchase_days_ago": 25,
+      "total_lifetime_spend": 1848.00,
+      "typical_categories": ["kids", "home", "apparel"]
+    },
+    "discount_sensitivity": 0.80,
+    "brand_loyalty": 0.55,
+    "preferred_channel": "email",
+    "price_perception": "Every purchase is weighed against the family budget — a real discount changes what she can justify."
+  },
+  {
+    "persona_id": "p6_competitor_switcher",
+    "segment_name": "Competitor Switcher",
+    "description": "Actively compares this brand against rivals on every purchase decision",
+    "backstory": "Jordan keeps three brand apps on his phone, including this one and two direct competitors, and genuinely doesn't care which one he buys from as long as he gets the best combination of price and product. He's bought from this brand three times, but he's bought from a competitor five times in the same period, largely because their loyalty program has better perks. He'll switch allegiance instantly if this brand's discount depth falls behind a rival's, and he actively tells friends when he finds a better deal elsewhere.",
+    "purchase_history": {
+      "avg_order_value": 71.00,
+      "purchase_frequency_per_year": 3,
+      "last_purchase_days_ago": 60,
+      "total_lifetime_spend": 213.00,
+      "typical_categories": ["footwear", "accessories"]
+    },
+    "discount_sensitivity": 0.85,
+    "brand_loyalty": 0.20,
+    "preferred_channel": "app_push",
+    "price_perception": "Constantly benchmarking against competitors — loyalty goes to whoever's winning on value right now."
+  }
+]

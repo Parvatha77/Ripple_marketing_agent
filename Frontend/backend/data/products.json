@@ -1,0 +1,110 @@
+[
+  {
+    "sku_id": "sku_001",
+    "name": "Classic Crewneck Sweater",
+    "category": "apparel",
+    "list_price": 78.00,
+    "unit_cost": 31.00,
+    "current_discount_pct": 10,
+    "historical_discount_frequency": "Discounted during seasonal sales, roughly 4x/year, rarely below 20% off"
+  },
+  {
+    "sku_id": "sku_002",
+    "name": "Everyday Leather Tote",
+    "category": "accessories",
+    "list_price": 145.00,
+    "unit_cost": 52.00,
+    "current_discount_pct": 0,
+    "historical_discount_frequency": "Almost never discounted; treated as a signature full-price item"
+  },
+  {
+    "sku_id": "sku_003",
+    "name": "Insulated Field Jacket",
+    "category": "outerwear",
+    "list_price": 220.00,
+    "unit_cost": 94.00,
+    "current_discount_pct": 10,
+    "historical_discount_frequency": "End-of-season discounting only, typically 30-40% off in clearance"
+  },
+  {
+    "sku_id": "sku_004",
+    "name": "Trail Runner Sneaker",
+    "category": "footwear",
+    "list_price": 130.00,
+    "unit_cost": 48.00,
+    "current_discount_pct": 10,
+    "historical_discount_frequency": "Frequently discounted, 2-3x per quarter, competes on price with rival footwear lines"
+  },
+  {
+    "sku_id": "sku_005",
+    "name": "Organic Cotton Tee 3-Pack",
+    "category": "apparel",
+    "list_price": 45.00,
+    "unit_cost": 14.00,
+    "current_discount_pct": 10,
+    "historical_discount_frequency": "Frequently bundled into promo campaigns; high elasticity item"
+  },
+  {
+    "sku_id": "sku_006",
+    "name": "Kids Rain Boot",
+    "category": "kids",
+    "list_price": 38.00,
+    "unit_cost": 12.50,
+    "current_discount_pct": 10,
+    "historical_discount_frequency": "Discounted seasonally alongside back-to-school and holiday campaigns"
+  },
+  {
+    "sku_id": "sku_007",
+    "name": "Ceramic Pour-Over Set",
+    "category": "home",
+    "list_price": 58.00,
+    "unit_cost": 21.00,
+    "current_discount_pct": 10,
+    "historical_discount_frequency": "Occasionally bundled with sitewide promos, no standalone discount history"
+  },
+  {
+    "sku_id": "sku_008",
+    "name": "Merino Wool Beanie",
+    "category": "accessories",
+    "list_price": 32.00,
+    "unit_cost": 9.50,
+    "current_discount_pct": 10,
+    "historical_discount_frequency": "Common gift-with-purchase item; rarely discounted directly"
+  },
+  {
+    "sku_id": "sku_009",
+    "name": "Weekender Duffel Bag",
+    "category": "accessories",
+    "list_price": 165.00,
+    "unit_cost": 61.00,
+    "current_discount_pct": 10,
+    "historical_discount_frequency": "Discounted only during major sitewide events, typically capped at 20% off"
+  },
+  {
+    "sku_id": "sku_010",
+    "name": "Performance Running Sock 3-Pack",
+    "category": "footwear",
+    "list_price": 24.00,
+    "unit_cost": 6.50,
+    "current_discount_pct": 10,
+    "historical_discount_frequency": "Frequently used as a low-cost promo add-on and threshold item"
+  },
+  {
+    "sku_id": "sku_011",
+    "name": "Quilted Puffer Vest",
+    "category": "outerwear",
+    "list_price": 98.00,
+    "unit_cost": 39.00,
+    "current_discount_pct": 10,
+    "historical_discount_frequency": "Moderately discounted in fall campaigns, 15-25% off typical"
+  },
+  {
+    "sku_id": "sku_012",
+    "name": "Kids Graphic Hoodie",
+    "category": "kids",
+    "list_price": 42.00,
+    "unit_cost": 15.00,
+    "current_discount_pct": 10,
+    "historical_discount_frequency": "Discounted alongside adult apparel in sitewide events, no independent cadence"
+  }
+]
